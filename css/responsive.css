@@ -8,7 +8,7 @@
     left: 0;
     width: 100%;
     text-align: center;
-    background: rgba(51, 51, 51, 0.08);
+    background: #ECECEC;
     padding: 20px 0px;
     transform: translateY(-500px);
     transition: 0.3s;
@@ -19,6 +19,9 @@
   .navigation li {
     display: block;
     margin-bottom: 20px;
+  }
+  .navigation li a{
+      color: #000000;
   }
   .banner h1 {
     font-size: 50px;

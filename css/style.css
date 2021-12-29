@@ -1,0 +1,220 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;300;400;500;600&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  box-sizing: border-box;
+  font-family: "Josefin Sans", sans-serif;
+}
+.container {
+  max-width: 1150px;
+  margin: 0 auto;
+  padding: 0px 40px;
+}
+button{
+    cursor: pointer;
+}
+.header {
+  background: url(/images/hero3.png);
+  width: 100%;
+  height: 100vh;
+  color: #fff;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.nav-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 80px;
+}
+.navigation li {
+  display: inline-block;
+  list-style: none;
+}
+.navigation li a {
+  text-decoration: none;
+  padding: 10px 15px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+}
+.logo h2 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 24px;
+  letter-spacing: 6%;
+}
+.toggle-menu-btn {
+  color: black;
+  display: none;
+  font-size: 25px;
+}
+#toggle-menu {
+  display: none;
+}
+.btn-main {
+  background: rgba(94, 77, 205, 1);
+  padding: 12px 30px;
+  color: white;
+  border: none;
+}
+.btn-purple {
+  background: rgba(255, 210, 221, 1);
+  color: rgba(94, 77, 205, 1);
+  font-weight: 700;
+}
+.banner {
+  display: flex;
+  align-items: center;
+  height: calc(100% - 160px);
+}
+
+.banner h1 {
+  font-size: 60px;
+  line-height: 80px;
+}
+.banner p {
+  padding-right: 51%;
+  margin-bottom: 15px;
+  line-height: 30px;
+  font-weight: 400;
+  font-size: 16px;
+}
+.btn-banner {
+  background: rgba(123, 97, 255, 1);
+  padding: 14px 34px;
+  border: none;
+  color: white;
+}
+/* banner css end */
+#investment {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.section-title {
+  text-align: center;
+  margin-bottom: 50px;
+  width: 650px;
+  margin: 0px auto;
+}
+.section-title h2 {
+  font-size: 40px;
+  line-height: 60px;
+  color: rgba(51, 51, 51, 1);
+  margin-bottom: 20px;
+}
+.section-title p {
+  padding: 0px 60px;
+}
+.invest-card-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+  place-items: center;
+  margin-top: 40px;
+}
+.card {
+  position: relative;
+  background-color: #fff;
+  box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+    border-radius: 2px;
+}
+.card img {
+  width: 100%;
+}
+.card-head {
+  position: absolute;
+  top: 0;
+  left: 12px;
+}
+.card-head-text {
+  background-color: rgba(255, 255, 255, 0.8);
+  color: black;
+  display: inline-block;
+  padding: 5px 7px;
+  margin: 10px 0px;
+  font-size: 11px;
+}
+.card-body {
+  padding: 15px 20px;
+}
+.card-title {
+  margin-bottom: 15px;
+}
+.card-title h3 {
+  font-size: 24px;
+  font-weight: 700;
+  color: rgba(51, 51, 51, 1);
+}
+.card-title p {
+  color: rgba(153, 153, 153, 1);
+  font-weight: 400;
+  margin-top: 6px;
+  font-size: 16px;
+}
+.card-footer p {
+  margin-bottom: 15px;
+  color: rgba(51, 51, 51, 1);
+  font-weight: 400;
+  font-size: 16px;
+}
+.highlight{
+    color: #7B61FF;
+}
+.section-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.btn-primary{
+    padding: 15px 40px;
+    border: 2px solid #7B61FF;
+    background:transparent;
+    color: black;
+    transition: .3s;
+}
+.btn-primary:hover{
+    background: #7B61FF;
+    color: #fff;
+}
+/* invest css end */
+#chart-group-section{
+    background: url(/images/Graph.png);
+    width: 100%;
+    height: 700px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.chart-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    place-items: center;
+    grid-gap: 20px;
+}
+.chart-left h1{
+    font-size: 48px;
+    color:rgba(51, 51, 51, 1);
+}
+.chart-left p{
+    padding-right: 40%;
+    margin-top: 30px;
+    color:rgba(153, 153, 153, 1);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+}
+.chart-right img{
+    width: 100%;
+}
+/* Graph css end */

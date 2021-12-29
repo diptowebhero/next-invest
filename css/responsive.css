@@ -1,0 +1,78 @@
+@media (max-width: 940px) {
+  .toggle-menu-btn {
+    display: block;
+  }
+  .navigation {
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    background: rgba(51, 51, 51, 0.08);
+    padding: 20px 0px;
+    transform: translateY(-500px);
+    transition: 0.3s;
+  }
+  #toggle-menu:checked ~ .navigation {
+    transform: translateY(0px);
+  }
+  .navigation li {
+    display: block;
+    margin-bottom: 20px;
+  }
+  .banner h1 {
+    font-size: 50px;
+    line-height: 80px;
+  }
+  .invest-card-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  #chart-group-section {
+    background-size: cover;
+  }
+  .chart-left p{
+    padding-right:15%;
+  }
+}
+@media (max-width: 600px) {
+  .banner h1 {
+    font-size: 36px;
+    line-height: 35px;
+  }
+  .banner p {
+    padding-right: 14%;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    line-height: 25px;
+    font-weight: 400;
+    font-size: 16px;
+  }
+  .section-title {
+    text-align: center;
+    width: 100%;
+    margin: 0px auto;
+  }
+  .section-title h2 {
+    font-size: 30px;
+    line-height: 30px;
+    color: rgba(51, 51, 51, 1);
+    margin-bottom: 20px;
+  }
+  .section-title p {
+    padding: 0px 20px;
+  }
+  .invest-card-container,
+  .chart-container {
+    grid-template-columns: 1fr;
+  }
+  #chart-group-section {
+    background-size: cover;
+  }
+  .chart-left p {
+    padding-right: 10%;
+  }
+  .chart-left h1 {
+    font-size: 35px;
+    color: rgba(51, 51, 51, 1);
+  }
+}

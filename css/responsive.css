@@ -33,13 +33,13 @@
   .chart-left p {
     padding-right: 15%;
   }
-  .work-left h1{
+  .work-left h1 {
     font-size: 40px;
     line-height: 45px;
-}
-.work-left p{
+  }
+  .work-left p {
     padding-right: 20%;
-}
+  }
 }
 @media (max-width: 600px) {
   .banner h1 {
@@ -83,11 +83,23 @@
     font-size: 35px;
     color: rgba(51, 51, 51, 1);
   }
-  .work-left h1{
-      font-size: 29px;
-      line-height: 40px;
+  .work-left h1 {
+    font-size: 29px;
+    line-height: 40px;
   }
-  .work-left p{
-      padding-right: 4%;
+  .work-left p {
+    padding-right: 4%;
+  }
+  .col p {
+    margin-bottom: 20px;
+  }
+  input {
+    border: 0;
+    padding: 12px 10px;
+    margin-bottom: 21px;
+    margin-right: -4px;
+  }
+  .contact h3 {
+      font-size: 17px;
   }
 }

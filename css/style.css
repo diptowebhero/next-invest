@@ -217,8 +217,8 @@ button {
 .chart-right img {
   width: 100%;
 }
-#work{
-    padding-top:20px;
+#work {
+  padding-top: 20px;
 }
 .work-container {
   display: grid;
@@ -244,3 +244,54 @@ button {
   margin-bottom: 10px;
 }
 /* Graph css end */
+#contact {
+  margin-top: 100px;
+  background: rgba(236, 236, 236, 1);
+  width: 100%;
+  height: 100%;
+}
+.footer-container {
+  padding: 50px;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.col-head {
+  font-weight: 900;
+  margin-bottom: 12px;
+  font-size: 19px;
+}
+.logo {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+.col p {
+  margin-bottom: 15px;
+}
+.contact {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.contact h3 {
+  margin-bottom: 20px;
+}
+input {
+  border: 0;
+  padding: 12px 35px;
+  margin-right: -4px;
+}
+.btn-arrow {
+  padding: 12px;
+  background-color: #7b61ff;
+  border: 0;
+  color: white;
+}
+.fab{
+    margin-right: 10px;
+    color: rgba(51, 51, 51, 1);
+}

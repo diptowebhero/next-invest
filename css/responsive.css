@@ -30,9 +30,16 @@
   #chart-group-section {
     background-size: cover;
   }
-  .chart-left p{
-    padding-right:15%;
+  .chart-left p {
+    padding-right: 15%;
   }
+  .work-left h1{
+    font-size: 40px;
+    line-height: 45px;
+}
+.work-left p{
+    padding-right: 20%;
+}
 }
 @media (max-width: 600px) {
   .banner h1 {
@@ -62,7 +69,8 @@
     padding: 0px 20px;
   }
   .invest-card-container,
-  .chart-container {
+  .chart-container,
+  .work-container {
     grid-template-columns: 1fr;
   }
   #chart-group-section {
@@ -74,5 +82,12 @@
   .chart-left h1 {
     font-size: 35px;
     color: rgba(51, 51, 51, 1);
+  }
+  .work-left h1{
+      font-size: 29px;
+      line-height: 40px;
+  }
+  .work-left p{
+      padding-right: 4%;
   }
 }
